@@ -41,16 +41,36 @@ main {
     border-radius: 5px;
     padding: 2vh;
     margin: 2em;
-    transition: .2s ease;
+    transition: .5s ease;
 }
 .cap:hover {
     background-color: #1f1e1e;
     padding: 3vh;
-    transition: .2s ease;
+    transition: .5s ease;
 }
 
 .cap-title {
     color: #D42C26;
-    font-size: 1.4em;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.cap-text {
+    display: none;
+    transition: .5 ease;
+}
+.cap:hover .cap-text {
+    display: block;
+    color: #D42C26;
+    font-size: 1em;
     font-weight: 600;
+    transition: .5 ease;
+
+}
+.cap:hover .cap-text p {
+    display: block;
+    color: #FFFFFF;
+    font-size: 1.05em;
+    font-weight: 500;
+    letter-spacing: 0;
 }
