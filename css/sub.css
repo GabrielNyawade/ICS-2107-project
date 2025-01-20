@@ -45,26 +45,26 @@ main {
 }
 .cap:hover {
     background-color: #1f1e1e;
-    padding: 3vh;
+    padding: 4vh;
     transition: .5s ease;
 }
 
 .cap-title {
     color: #D42C26;
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-weight: bolder;
 }
 
 .cap-text {
     display: none;
-    transition: .5 ease;
+    transition: .5s ease;
 }
 .cap:hover .cap-text {
     display: block;
     color: #D42C26;
     font-size: 1em;
     font-weight: 600;
-    transition: .5 ease;
+    transition: .5s ease;
 
 }
 .cap:hover .cap-text p {
